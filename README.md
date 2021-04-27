@@ -19,4 +19,4 @@ Routes:
 
 
 
-Created following along with the freeCodeCamp [tutorial] (https://www.freecodecamp.org/news/learn-data-structures-flask-api-python/).
+Created following along with the freeCodeCamp [tutorial](https://www.freecodecamp.org/news/learn-data-structures-flask-api-python/).
