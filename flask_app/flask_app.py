@@ -7,12 +7,15 @@ from flask_sqlalchemy import SQLAlchemy
 import linked_list, hash_table, binary_search_tree, custom_q, stack
 import random
 
-# app
-app = Flask(__name__)
+def create_app():
+	# app
+	app = Flask(__name__)
 
-# app configuration dictionary
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///sqlitedb.file"
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = 0 
+	# app configuration dictionary
+	app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///sqlitedb.file"
+	app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = 0 
+	
+	return app
 
 # In Object Relational Model (ORM): Classes (objects) become User database tables
 # i.e. turns objects (OOP) into SQL statements
@@ -240,5 +243,6 @@ def delete_last_10():
 
 
 
-if __name__ == "__main__":
-	app.run(debug=True)
+# if __name__ == "__main__":
+# 	# app.run(debug=True)
+# 	create
