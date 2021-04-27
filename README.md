@@ -2,6 +2,10 @@
 
 An API created in order to practice creating and using hash tables, linked lists, binary search trees, stacks and queues.
 
+Uses:
+- Flask
+- SQLAlchemy
+
 Routes:
 - Create user: '/user'
 - Delete user: '/user/<user_id>
