@@ -17,6 +17,8 @@ def create_app():
 	
 	return app
 
+create_app()
+
 # In Object Relational Model (ORM): Classes (objects) become User database tables
 # i.e. turns objects (OOP) into SQL statements
 
