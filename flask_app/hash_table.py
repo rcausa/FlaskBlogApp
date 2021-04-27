@@ -22,9 +22,9 @@ class HashTable:
         return hash_value
     
     def add_key_value(self, key, value):
-        """Instead of traversing a list, a hash makes
+        """ Instead of traversing a list, a hash makes
             it more likely to find an empty place to put your item.
-            Otherwise, traverse the list/linked list (else statement)
+            Otherwise, traverse the list/linked list.
 
             Store new key,value pair in hash_table.
             Store as new node if doesn't exist, otherwise, add to 
